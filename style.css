@@ -1,0 +1,51 @@
+body{
+	background-color: #011F3F;
+}
+
+.label{
+	text-align: center;
+	color: rgb(241, 242, 212);
+	font-family: 'ADLaM Display', cursive;
+	font-size: 5rem;
+	margin-top: 0;
+}
+
+.game{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 40px;
+}
+
+.game>div{
+	/* background-color: white; */
+	height: 222px;
+	width: 222px;
+	border-radius: 20%;
+	border: 10px solid black;
+}
+
+.cube1{
+	background-color: green;
+	justify-self: end;
+}
+.cube2{
+	background-color: red;
+}
+
+.cube3{
+	background-color: yellow;
+	justify-self: end;
+}
+
+.cube4{
+	background-color: blue;
+}
+
+.bc-color{
+	background-color: #d5bf74;
+}
+
+.red{
+	background-color: red;
+}
